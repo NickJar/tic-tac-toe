@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color: rgb(25, 111, 165);
+    height: 100vh;
+    width: 100%;
+}
+
+.gameboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 450px;
+    height: 450px;
+    box-shadow: 4px 4px 3px #000;
+}
+
+.header{
+    color: rgb(255, 255, 255);
+}
+
+.tile{
+    display: flex;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 158, 140);
+    color: white;
+    border: 1px solid white;
+}
